@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: service-one
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/nvijaykarthik/spring-boot-microservices-config-data.git
+          proxy:
+            https:
+              host: proxy.cognizant.com
+              port: 6050
+              username: 585645
+              password: Perun$dhu0
+        bootstrap: true
